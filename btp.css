@@ -78,3 +78,226 @@ body{
 	text-shadow: 1px 1px 7px white;
 	border-radius: 2px;
 }
+
+/* Page Presentation */
+.quisommesnous{
+	background-color: rgb(191,143,105,0.9);
+	border: solid black;
+	border-radius: 40px;
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.quisommesnous h1{
+	font-family: "Bebas Neue";
+	font-weight: bold;
+	font-size: 50px;
+}
+.quisommesnous p{
+   font-family: "Courier New", Courier, monospace;
+   font-weight: bold;
+}
+.quisommesnous img{
+   width: 200px;
+   height: 200px;
+}
+.autrepages{
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-left: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 50px;
+}
+.autrepages h1{
+	font-family: "Bebas Neue";
+	font-weight: bold;
+	font-size: 50px;
+}
+.autrepages p{
+   font-family: "Courier New", Courier, monospace;
+   font-weight: bold;
+}
+.pageequipe{
+	background-color: rgb(191,143,105,0.9);
+	border: solid black;
+	border-radius: 200px;
+	height: 300px;
+	width: 300px;
+	padding: 10px;
+	text-align: center;
+	margin: 20px;
+}
+.pageequipe h1{
+	font-family: "Bebas Neue";
+	font-weight: bold;
+	font-size: 40px;
+}
+.pageequipe p{
+   font-family: "Courier New", Courier, monospace;
+   font-weight: bold;
+}
+.pagerealisations{
+	background-color: rgb(191,143,105,0.9);
+	border: solid black;
+	border-radius: 200px;
+	height: 300px;
+	width: 300px;
+	padding: 10px;
+	text-align: center;
+	margin: 20px;
+}
+.pagerealisations h1{
+	font-family: "Bebas Neue";
+	font-weight: bold;
+	font-size: 40px;
+}
+.pagerealisations p{
+   font-family: "Courier New", Courier, monospace;
+   font-weight: bold;
+}
+.localisation{
+	background-color: rgb(191,143,105,0.9);
+	border: solid black;
+	border-radius: 200px;
+	height: 300px;
+	width: 300px;
+	padding: 10px;
+	text-align: center;
+	margin: 20px;
+}
+.localisation h1{
+	font-family: "Bebas Neue";
+	font-weight: bold;
+	font-size: 40px;
+}
+.localisation p{
+   font-family: "Courier New", Courier, monospace;
+   font-weight: bold;
+}
+.localisation img{
+	width: 40px;
+	height: 40px;
+}
+.services{
+	background-color: rgb(191,143,105,0.9);
+	border: solid black;
+	border-radius: 40px;
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-left: 20px;
+	height: 380px;
+	padding: 20px;
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.services h1{
+	font-family: "Bebas Neue";
+	font-weight: bold;
+	font-size: 50px;
+}
+.services p{
+   font-family: "Courier New", Courier, monospace;
+   font-weight: bold;
+}
+.services img{
+   width: 500px;
+   height: 100px;
+}
+.listeservices{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.reseaux{
+	background-color: rgb(191,143,105,0.9);
+	border: solid black;
+	border-radius: 200px;
+	height: 300px;
+	width: 300px;
+	padding: 10px;
+	text-align: center;
+	margin: 20px;
+}
+.reseaux h1{
+	font-family: "Bebas Neue";
+	font-weight: bold;
+	font-size: 40px;
+}
+.reseaux p{
+   font-family: "Courier New", Courier, monospace;
+   font-weight: bold;
+}
+.reseaux img{
+	border-radius: 10px;
+}
+.reseaux img:hover{
+	opacity: 0.3;
+}
+.pagecontact{
+	background-color: rgb(191,143,105,0.9);
+	border: solid black;
+	border-radius: 200px;
+	height: 300px;
+	width: 300px;
+	padding: 10px;
+	text-align: center;
+	margin: 20px;
+}
+.pagecontact h1{
+	font-family: "Bebas Neue";
+	font-weight: bold;
+	font-size: 40px;
+}
+.pagecontact p{
+   font-family: "Courier New", Courier, monospace;
+   font-weight: bold;
+}
+button {
+  padding: 10px;
+  font-size: 40px;
+  cursor: crosshair;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #724F30;
+  border: none;
+  border-radius: 200px;
+  box-shadow: 0 2px gray;
+  font-family: "Bebas Neue";
+}
+
+button:active {
+  background-color: #724F30;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#pin{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#pin img{
+  width: 50px;
+  height: 40px;
+}
+#pinmid{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#pinmid img{
+  width: 50px;
+  height: 40px;
+}
