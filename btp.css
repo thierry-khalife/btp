@@ -458,3 +458,48 @@ button:active {
 #otherinfo img:hover{
 	opacity: 0.3;
 }
+
+/*Page Equipe*/
+
+.equipe{
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-left: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 50px;
+}
+.equipe h1{
+	font-family: "Bebas Neue";
+	font-weight: bold;
+	font-size: 50px;
+}
+.equipe p{
+   font-family: "Courier New", Courier, monospace;
+   font-weight: bold;
+}
+.employes{
+	background-color: rgb(191,143,105,0.9);
+	border: solid black;
+	border-radius: 200px;
+	height: 350px;
+	width: 300px;
+	padding: 10px;
+	text-align: center;
+	margin: 20px;
+}
+.employes h1{
+	font-family: "Bebas Neue";
+	font-weight: bold;
+	font-size: 40px;
+}
+.employes p{
+   font-family: "Courier New", Courier, monospace;
+   font-weight: bold;
+}
+.employes img{
+	width: 100px;
+	height: 100px;
+}
