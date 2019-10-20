@@ -1,0 +1,139 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+/* ===== FOOTER ===== */
+
+#containerfooter {
+	width: 100%;
+	height: 300px;
+	background-color: #BF8F69;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#cfooterlogo {
+/*	background-color: blue;*/
+	width: 20%;
+	height: 250px;
+	min-width: 250px;
+}
+
+#cfooterpres {
+/*	background-color: green;*/
+	width: 25%;
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 50px;
+	color: white;
+	border-right: 2px solid #DEAE88;
+	height: 250px;
+	min-width: 250px;
+}
+
+#cfootermenu {
+/*	background-color: red;*/
+	width: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-right: 2px solid #DEAE88;
+	height: 250px;
+	min-width: 200px;
+}
+
+#titremenu {
+	color: white;
+	font-size: 24px;
+}
+
+#footermenu ul li {
+	color: white;
+	list-style: none;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+#footermenu ul li:hover {
+	color: lightgrey;
+}
+
+#cfooterreseaux {
+/*	background-color: cyan;*/
+	width: 30%;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-width: 200px;
+}
+
+#boutonreseaux {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 10px;
+	padding-left: 10px;
+}
+
+#tableaufooter table tbody tr td {
+	color: white;
+}
+
+#footertwitter {
+	background-image: url(img/Twitter.png);
+	height: 40px;
+	width: 40px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#footeryoutube {
+	background-image: url(img/Youtube.png);
+	height: 40px;
+	width: 40px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#footerfacebook {
+	background-image: url(img/Facebook.png);
+	height: 40px;
+	width: 40px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#footertwitter:hover {
+	background-image: url(img/Twitter2.png);
+}
+
+#footeryoutube:hover {
+	background-image: url(img/Youtube2.png);
+}
+
+#footerfacebook:hover {
+	background-image: url(img/Facebook2.png);
+}
+
+#containercopyright {
+	background-color: #262626;
+	height: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#copyright {
+	color: white;
+	display: flex;
+}
