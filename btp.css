@@ -223,6 +223,7 @@ a {
 /* Page Presentation */
 .quisommesnous{
 	background-color: rgb(191,143,105,0.9);
+	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 40px;
 	margin-top: 50px;
@@ -268,6 +269,7 @@ a {
 }
 .pageequipe{
 	background-color: rgb(191,143,105,0.9);
+	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 200px;
 	height: 300px;
@@ -287,6 +289,7 @@ a {
 }
 .pagerealisations{
 	background-color: rgb(191,143,105,0.9);
+	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 200px;
 	height: 300px;
@@ -306,6 +309,7 @@ a {
 }
 .localisation{
 	background-color: rgb(191,143,105,0.9);
+	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 200px;
 	height: 300px;
@@ -329,12 +333,13 @@ a {
 }
 .services{
 	background-color: rgb(191,143,105,0.9);
+	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 40px;
 	margin-top: 50px;
 	margin-right: 20px;
 	margin-left: 20px;
-	height: 350px;
+	height: 380px;
 	padding: 20px;
 	margin: 20px;
 	display: flex;
@@ -362,6 +367,7 @@ a {
 }
 .reseaux{
 	background-color: rgb(191,143,105,0.9);
+	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 200px;
 	height: 300px;
@@ -387,6 +393,7 @@ a {
 }
 .pagecontact{
 	background-color: rgb(191,143,105,0.9);
+	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 200px;
 	height: 300px;
@@ -442,6 +449,7 @@ button:active {
   width: 50px;
   height: 40px;
 }
+
 /*Page Equipe*/
 
 .equipe{
@@ -486,9 +494,11 @@ button:active {
 	width: 100px;
 	height: 100px;
 }
+
 /*contact page */
 .contact{
 	background-color: rgb(191,143,105,0.9);
+	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 40px;
 	margin-top: 50px;
@@ -924,4 +934,50 @@ button:active {
 	padding-left: 20px;
 	font-family: "Bebas Neue";
 	font-size: 24px;
+}
+
+/*Page Equipe*/
+
+.equipe{
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-left: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 50px;
+}
+.equipe h1{
+	font-family: "Bebas Neue";
+	font-weight: bold;
+	font-size: 50px;
+}
+.equipe p{
+   font-family: "Courier New", Courier, monospace;
+   font-weight: bold;
+}
+.employes{
+	background-color: rgb(191,143,105,0.9);
+	background-image: url(img/bg4.png);
+	border: solid black;
+	border-radius: 200px;
+	height: 350px;
+	width: 300px;
+	padding: 10px;
+	text-align: center;
+	margin: 20px;
+}
+.employes h1{
+	font-family: "Bebas Neue";
+	font-weight: bold;
+	font-size: 40px;
+}
+.employes p{
+   font-family: "Courier New", Courier, monospace;
+   font-weight: bold;
+}
+.employes img{
+	width: 100px;
+	height: 100px;
 }
