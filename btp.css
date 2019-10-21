@@ -23,8 +23,7 @@ body{
 	margin: 0px;
 	display: flex;
 	flex-direction: column;
-	background-image: url(img/bg3.jpg);
-	background-size: cover;
+	background-image: url(img/bg5.jpg);
 	font-family: sans-serif;
 }
 .imageheader {
@@ -39,6 +38,7 @@ body{
 .menu{
 	margin-left: 5px;
 	background-color: rgb(191,143,105,0.9);
+	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 10px;
 	height: 80px;
@@ -93,6 +93,7 @@ body{
 	width: 100%;
 	height: 300px;
 	background-color: #BF8F69;
+	background-image: url(img/bg4.png);
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -113,7 +114,7 @@ body{
 	padding-left: 10px;
 	padding-right: 50px;
 	color: white;
-	border-right: 2px solid #DEAE88;
+	border-right: 2px solid #85653B;
 	height: 250px;
 	min-width: 250px;
 }
@@ -123,7 +124,7 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border-right: 2px solid #DEAE88;
+	border-right: 2px solid #85653B;
 	height: 250px;
 	min-width: 200px;
 }
@@ -208,6 +209,7 @@ a {
 
 #containercopyright {
 	background-color: #262626;
+	background-image: url(img/bg4.png);
 	height: 30px;
 	display: flex;
 	flex-direction: row;
@@ -223,7 +225,6 @@ a {
 /* Page Presentation */
 .quisommesnous{
 	background-color: rgb(191,143,105,0.9);
-	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 40px;
 	margin-top: 50px;
@@ -269,7 +270,6 @@ a {
 }
 .pageequipe{
 	background-color: rgb(191,143,105,0.9);
-	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 200px;
 	height: 300px;
@@ -289,7 +289,6 @@ a {
 }
 .pagerealisations{
 	background-color: rgb(191,143,105,0.9);
-	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 200px;
 	height: 300px;
@@ -309,7 +308,6 @@ a {
 }
 .localisation{
 	background-color: rgb(191,143,105,0.9);
-	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 200px;
 	height: 300px;
@@ -333,13 +331,12 @@ a {
 }
 .services{
 	background-color: rgb(191,143,105,0.9);
-	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 40px;
 	margin-top: 50px;
 	margin-right: 20px;
 	margin-left: 20px;
-	height: 380px;
+	height: 350px;
 	padding: 20px;
 	margin: 20px;
 	display: flex;
@@ -367,7 +364,6 @@ a {
 }
 .reseaux{
 	background-color: rgb(191,143,105,0.9);
-	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 200px;
 	height: 300px;
@@ -393,7 +389,6 @@ a {
 }
 .pagecontact{
 	background-color: rgb(191,143,105,0.9);
-	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 200px;
 	height: 300px;
@@ -449,7 +444,6 @@ button:active {
   width: 50px;
   height: 40px;
 }
-
 /*Page Equipe*/
 
 .equipe{
@@ -494,11 +488,9 @@ button:active {
 	width: 100px;
 	height: 100px;
 }
-
 /*contact page */
 .contact{
 	background-color: rgb(191,143,105,0.9);
-	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 40px;
 	margin-top: 50px;
@@ -661,8 +653,8 @@ button:active {
 	width: 97%;
 	margin-left: 18px;
 	margin-right: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	border-radius: 20px;
 }
 
@@ -763,6 +755,40 @@ button:active {
 	vertical-align: middle;
 }
 
+.dividervert {
+	margin: 0 -100%;
+	margin-top: 10px;
+}
+
+.dividervert::before, .dividervert::after {
+	content: '';
+	height: 2px;
+	border: solid 1px lightgreen;
+	border-left: none;
+	border-right: none;  
+	width: 100px;
+	margin: 0 30px;  
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.dividerbleu {
+	margin: 0 -100%;
+	margin-top: 10px;
+}
+
+.dividerbleu::before, .dividerbleu::after {
+	content: '';
+	height: 2px;
+	border: solid 1px #2667DD;
+	border-left: none;
+	border-right: none;  
+	width: 100px;
+	margin: 0 30px;  
+	display: inline-block;
+	vertical-align: middle;
+}
+
 #containerservices2 {
 /*	background-color: red;*/
 	height: 360px;
@@ -771,7 +797,6 @@ button:active {
 	flex-wrap: nowrap;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-bottom: 40px;
 }
 
 #curgence2 {
@@ -815,6 +840,22 @@ button:active {
 	margin-top: 50px;
 	margin-bottom: 50px;
 	border-left: 2px solid #DEAE88;
+}
+
+#curgence2:hover {
+	transform: scale(1.05);
+}
+
+#crenovation2:hover {
+	transform: scale(1.05);
+}
+
+#cpose2:hover {
+	transform: scale(1.05);
+}
+
+#cdepannage2:hover {
+	transform: scale(1.05);
 }
 
 .casetitre2 {
@@ -936,48 +977,189 @@ button:active {
 	font-size: 24px;
 }
 
-/*Page Equipe*/
+#confiance2 {
+	width: 1000px;
+	height: 150px;
+/*	background-color: red;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
 
-.equipe{
-	margin-top: 50px;
-	margin-right: 20px;
-	margin-left: 20px;
+#cconfiance2 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-wrap: wrap;
-	margin: 50px;
+	padding-bottom: 50px;
 }
-.equipe h1{
-	font-family: "Bebas Neue";
-	font-weight: bold;
-	font-size: 50px;
-}
-.equipe p{
-   font-family: "Courier New", Courier, monospace;
-   font-weight: bold;
-}
-.employes{
-	background-color: rgb(191,143,105,0.9);
+
+/* ===== REALISATIONS ===== */
+
+.containerrea {
 	background-image: url(img/bg4.png);
-	border: solid black;
-	border-radius: 200px;
-	height: 350px;
-	width: 300px;
-	padding: 10px;
-	text-align: center;
-	margin: 20px;
+	background-color: white;
+	width: 97%;
+	margin-left: 18px;
+	margin-right: 10px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+	border-radius: 20px;
 }
-.employes h1{
+
+.crea {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.firstcase {
+/*	background-color: orange;*/
+	width: 40%;
+	min-width: 500px;
+	height: 400px;
+	margin-right: 50px;
+	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.secondcase {
+/*	background-color: blue;*/
+	width: 20%;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.titrerea {
 	font-family: "Bebas Neue";
+	font-size: 34px;
+	line-height: 34px;
+}
+
+.titrerea::after {
+	background-color: red;
+	bottom: 0px;
+	content: '';
+	display: block;
+	height: 4px;
+	width: 266px;
+	margin-top: -2px;
+	margin-bottom: 10px;
+}
+
+.photosrea {
+	height: 350px;
+	background-color: pink;
+}
+
+#slider2 {
+	width: 500px;
+	height: 350px;
+	overflow: hidden;
+}
+
+#slides2 {
+	width: calc(500px * 3);
+	animation: glisse2 25s infinite;
+}
+
+.slide2 {
+	float: left;
+	width: 500px;
+}
+
+@keyframes glisse2 {
+	0% {
+		transform: translateX(0);
+	}
+	10% {
+		transform: translateX(0);
+	}
+	33% {
+		transform: translateX(-500px);
+	}
+	43% {
+		transform: translateX(-500px);
+	}
+	66% {
+		transform: translateX(-1000px);
+	}
+	76% {
+		transform: translateX(-1000px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+.tabletitre {
 	font-weight: bold;
-	font-size: 40px;
 }
-.employes p{
-   font-family: "Courier New", Courier, monospace;
-   font-weight: bold;
+
+.sred2 {
+	color: red;
 }
-.employes img{
+
+.sorange2 {
+	color: orange;
+}
+
+.slightgreen2 {
+	color: lightgreen;
+}
+
+.dividerblack {
+	margin: 0 -100%;
+	margin-top: 10px;
+}
+
+.dividerblack::before, .dividerblack::after {
+	content: '';
+	height: 2px;
+	border: solid 1px black;
+	border-left: none;
+	border-right: none;  
 	width: 100px;
-	height: 100px;
+	margin: 0 30px;  
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.titrerea2 {
+	font-family: "Bebas Neue";
+	font-size: 34px;
+	line-height: 34px;
+}
+
+.titrerea2::after {
+	background-color: orange;
+	bottom: 0px;
+	content: '';
+	display: block;
+	height: 4px;
+	width: 220px;
+	margin-top: -2px;
+	margin-bottom: 10px;
+}
+
+.titrerea3 {
+	font-family: "Bebas Neue";
+	font-size: 34px;
+	line-height: 34px;
+}
+
+.titrerea3::after {
+	background-color: lightgreen;
+	bottom: 0px;
+	content: '';
+	display: block;
+	height: 4px;
+	width: 234px;
+	margin-top: -2px;
+	margin-bottom: 10px;
 }
