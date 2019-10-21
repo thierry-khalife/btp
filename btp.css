@@ -82,6 +82,7 @@ body{
 /* Page Presentation */
 .quisommesnous{
 	background-color: rgb(191,143,105,0.9);
+	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 40px;
 	margin-top: 50px;
@@ -127,6 +128,7 @@ body{
 }
 .pageequipe{
 	background-color: rgb(191,143,105,0.9);
+	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 200px;
 	height: 300px;
@@ -146,6 +148,7 @@ body{
 }
 .pagerealisations{
 	background-color: rgb(191,143,105,0.9);
+	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 200px;
 	height: 300px;
@@ -165,6 +168,7 @@ body{
 }
 .localisation{
 	background-color: rgb(191,143,105,0.9);
+	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 200px;
 	height: 300px;
@@ -188,6 +192,7 @@ body{
 }
 .services{
 	background-color: rgb(191,143,105,0.9);
+	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 40px;
 	margin-top: 50px;
@@ -221,6 +226,7 @@ body{
 }
 .reseaux{
 	background-color: rgb(191,143,105,0.9);
+	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 200px;
 	height: 300px;
@@ -246,6 +252,7 @@ body{
 }
 .pagecontact{
 	background-color: rgb(191,143,105,0.9);
+	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 200px;
 	height: 300px;
@@ -305,6 +312,7 @@ button:active {
 /*contact page */
 .contact{
 	background-color: rgb(191,143,105,0.9);
+	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 40px;
 	margin-top: 50px;
@@ -482,6 +490,7 @@ button:active {
 }
 .employes{
 	background-color: rgb(191,143,105,0.9);
+	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 200px;
 	height: 350px;
