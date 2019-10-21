@@ -224,7 +224,7 @@ a {
 
 /* Page Presentation */
 .quisommesnous{
-	background-color: rgb(255,255,255,0.8);
+	background-color: rgb(255,255,255,0.9);
 	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 40px;
@@ -270,7 +270,7 @@ a {
    font-weight: bold;
 }
 .pageequipe{
-	background-color: rgb(255,255,255,0.8);
+	background-color: rgb(255,255,255,0.9);
 	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 200px;
@@ -290,7 +290,7 @@ a {
    font-weight: bold;
 }
 .pagerealisations{
-	background-color: rgb(255,255,255,0.8);
+	background-color: rgb(255,255,255,0.9);
 	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 200px;
@@ -310,7 +310,7 @@ a {
    font-weight: bold;
 }
 .localisation{
-	background-color: rgb(255,255,255,0.8);
+	background-color: rgb(255,255,255,0.9);
 	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 200px;
@@ -334,7 +334,7 @@ a {
 	height: 40px;
 }
 .services{
-	background-color: rgb(255,255,255,0.8);
+	background-color: rgb(255,255,255,0.9);
 	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 40px;
@@ -368,7 +368,7 @@ a {
 	width: 100%;
 }
 .reseaux{
-	background-color: rgb(255,255,255,0.8);
+	background-color: rgb(255,255,255,0.9);
 	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 200px;
@@ -394,7 +394,7 @@ a {
 	opacity: 0.3;
 }
 .pagecontact{
-	background-color: rgb(255,255,255,0.8);
+	background-color: rgb(255,255,255,0.9);
 	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 200px;
@@ -473,7 +473,7 @@ button:active {
    font-weight: bold;
 }
 .employes{
-	background-color: rgb(255,255,255,0.8);
+	background-color: rgb(255,255,255,0.9);
 	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 200px;
@@ -498,7 +498,7 @@ button:active {
 }
 /*contact page */
 .contact{
-	background-color: rgb(255,255,255,0.8);
+	background-color: rgb(255,255,255,0.9);
 	background-image: url(img/bg4.png);
 	border: solid black;
 	border-radius: 40px;
